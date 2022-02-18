@@ -12,7 +12,7 @@ def get_valid_word(words):
 
 def hangman():
     word = get_valid_word(words)
-    word_letters = set(words)
+    word_letters = set(word)
     alphabet = set(string.ascii_uppercase)
     used_letters = set()
     
@@ -49,5 +49,5 @@ if __name__ == '__main__':
     hangman()
             
     
-#user_input = input("Type something:")  
-#print(user_input)  
+user_input = input("Type something:")  
+print(user_input)  
